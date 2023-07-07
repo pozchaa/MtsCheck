@@ -1,0 +1,135 @@
+@media (max-width: 1200px) {
+  .content {
+    padding: 0rem 1.17rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column !important;
+    align-items: center;
+  }
+}
+
+@media (max-width: 625px) {
+  .slick-slide img {
+    max-width: 540px;
+    width: 100%;
+    margin-left: 20px;
+  }
+
+  .slick-dots {
+    bottom: 50px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .slick-dots {
+    bottom: 30px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .slick-dots {
+    bottom: 15px !important;
+  }
+}
+
+// @media (max-width: 580px) {
+//   .slick-slide img {
+//     max-width: 540px;
+//     margin-left: 10px;
+//   }
+// }
+
+@font-face {
+  font-family: "MTSSans-Bold";
+  font-weight: 700;
+  src: local("MTS Sans"), url(./fonts/MTSSans-Bold.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "MTSSans-Medium";
+  font-weight: 400;
+  src: local("Lato"), url(./fonts/MTSSans-Medium.otf) format("truetype");
+}
+
+@font-face {
+  font-family: "MTSSans-Regular";
+  font-weight: 400;
+  src: local("Lato"), url(./fonts/MTSSans-Regular.otf) format("truetype");
+}
+
+h1 {
+  font-size: 32px;
+}
+
+body {
+  font-size: 17px;
+  margin: 0 auto;
+  background-color: white;
+  height: 100%;
+}
+
+.mainContainer {
+  display: block;
+  width: 100%;
+  background-color: #f2f3f7;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding-top: 2.76rem;
+  padding-bottom: 2.65rem;
+
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+
+.mobileSlider {
+  display: none !important;
+}
+
+/////////////////////////////
+
+.ant-select-selector {
+  background-color: rgba(0, 0, 0, 0) !important;
+  min-height: 52px;
+
+  display: flex;
+  align-items: center;
+  border-radius: 8px !important;
+}
+
+.ant-select-arrow {
+  font-size: 16px !important;
+  font-weight: 800 !important;
+
+  width: 16px !important;
+
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.slick-slider {
+  max-width: 600px;
+  width: 100%;
+  margin: auto;
+}
+
+.slick-list {
+  max-width: 600px;
+  width: 100%;
+  // margin-left: -10px !important; 
+}
+
+.slick-track {
+  margin-left: -16px !important;
+}
+
+.slick-next {
+  top: 44.5% !important;
+}

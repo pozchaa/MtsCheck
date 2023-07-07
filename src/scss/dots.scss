@@ -1,0 +1,31 @@
+.Now {
+  width: 8px;
+  height: 8px;
+
+  background-color: #969fa8 !important;
+
+  opacity: 1 !important;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.dotPoint {
+  width: 8px;
+  height: 8px;
+
+  background-color: #969fa8;
+  opacity: 0.3;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+.dots {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-between;
+}

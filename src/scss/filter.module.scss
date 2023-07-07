@@ -1,0 +1,60 @@
+@media (max-width: 890px) {
+  .filter {
+    margin-top: 0 !important;
+    display: block !important;
+
+    .filterSelect {
+      max-width: 768px !important;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .filter {
+    margin-top: 2.35rem !important;
+  }
+}
+
+// .ant-select-dropdown {
+//   max-height: 30px;
+// }
+
+.ant-select-customize-input {
+  background-color: red;
+}
+
+// .list {
+//   max-height: 232px;
+// }
+
+
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.35rem;
+
+  .filterSelect {
+
+    font-family: "MTSSans-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #626c77;
+    // background-color: green;
+
+    width: 100%;
+    max-width: 302px;
+    height: 100%;
+    max-height: 52px;
+
+    // padding: 0.82em 0.9em 0.82em 0.7em;
+    margin-bottom: 1.41rem;
+
+    border: 1px solid rgba(188, 195, 208, 0.5);
+    border-radius: 8px !important;
+
+  }
+}
+
